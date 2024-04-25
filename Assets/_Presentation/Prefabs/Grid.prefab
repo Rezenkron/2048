@@ -44,9 +44,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40716156f98bfc74b9f60bcc66f0b17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 5
-  _height: 5
+  _width: 3
+  _height: 3
   _boardPrefab: {fileID: 1340445197222206562, guid: 75a7637345d76e146af0dddf189869a4, type: 3}
-  _boardAdditionalSize: 0.25
+  _boardAdditionalSize: 0.15
   _cellPrefab: {fileID: -8198367803136877623, guid: c54cad4f04137194399f84ae026e06ff, type: 3}
-  cells: []
+  _blockPrefab: {fileID: 8336188088615407569, guid: 7b06af072fa824e48947c14705e8b492, type: 3}
+  _types:
+  - Value: 2
+    Color: {r: 1, g: 0, b: 0, a: 0}
+  - Value: 4
+    Color: {r: 1, g: 0, b: 0.46949816, a: 0}
+  - Value: 8
+    Color: {r: 0.38615036, g: 0, b: 1, a: 0}
+  - Value: 16
+    Color: {r: 0.11748028, g: 0, b: 1, a: 0}
+  - Value: 32
+    Color: {r: 0, g: 0.58567905, b: 1, a: 0}
+  - Value: 64
+    Color: {r: 0, g: 1, b: 0.81435704, a: 0}
+  - Value: 128
+    Color: {r: 0, g: 1, b: 0.52907395, a: 0}
+  - Value: 256
+    Color: {r: 0.93412864, g: 1, b: 0, a: 0}
+  - Value: 512
+    Color: {r: 1, g: 0.6096755, b: 0, a: 0}
+  - Value: 1024
+    Color: {r: 0.77591157, g: 0.6273585, b: 1, a: 0}
+  - Value: 2048
+    Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 0}

@@ -322,15 +322,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3104350019006414687, guid: 1883d7a1c5ddb7b4c8ec78248fba3c55, type: 3}
       propertyPath: _width
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3104350019006414687, guid: 1883d7a1c5ddb7b4c8ec78248fba3c55, type: 3}
       propertyPath: _height
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3104350019006414687, guid: 1883d7a1c5ddb7b4c8ec78248fba3c55, type: 3}
-      propertyPath: _boardAdditionalSize
-      value: 0.15
+      propertyPath: _types.Array.data[0].Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104350019006414687, guid: 1883d7a1c5ddb7b4c8ec78248fba3c55, type: 3}
+      propertyPath: _types.Array.data[1].Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8961526355952318423, guid: 1883d7a1c5ddb7b4c8ec78248fba3c55, type: 3}
       propertyPath: m_Name
